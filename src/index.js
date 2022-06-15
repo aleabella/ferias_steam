@@ -15,7 +15,7 @@ root.render(
   <>
   <BrowserRouter>
   <Routes> 
-    <Route path='/ferias_steam/' element={<Ferias/>}></Route>
+    <Route path='/ferias_steam' element={<Ferias/>}></Route>
     <Route path='/ferias' element={<Navigate replace to={"/ferias_steam"}/>}></Route>
     <Route path='/ferias_steam/primera' element={<PrimeraFeria/>}></Route>
     <Route path='/ferias_steam/segunda' element={<SegundaFeria/>}></Route>
